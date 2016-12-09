@@ -1,0 +1,65 @@
+body {
+    background-image: url("../img/blackmetal.jpg");
+}
+.container {
+    position: relative;
+    left: 33%;
+}
+
+#outerBox{
+background-color: black;
+    border-radius: 50%;
+    width: 50em;
+    height: 50em;
+    position: relative;
+    top: 5em;
+    right: 20%;
+
+    background-image: -webkit-radial-gradient( circle cover, #373737, black);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+
+#redTile {
+    width: 17em;
+    height: 17em;
+    position: relative;
+    top: 1.5em;
+    left: 16.5em;
+    background-image: -webkit-radial-gradient( circle cover, magenta, red);
+
+}
+#greenTile {
+    width: 17em;
+    height: 17em;
+    position: relative;
+    left: 31em;
+
+    background-image: -webkit-radial-gradient(circle cover, aqua, green);
+
+}
+#blueTile {
+    width: 17em;
+    height: 17em;
+    position: relative;
+    bottom: 17em;
+    left: 2em;
+
+
+    background-image: -webkit-radial-gradient(circle cover, cyan, blue);
+
+}
+#yellowTile {
+    width: 17em;
+    height: 17em;
+    position: relative;
+    bottom: 19em;
+    left: 16.5em;
+
+
+    background-image: -webkit-radial-gradient(circle cover, yellow, orange);
+
+}
