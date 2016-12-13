@@ -1,27 +1,37 @@
 body {
     background-image: url("../img/blackmetal.jpg");
+    font-family: 'Monoton', cursive;
 }
+
+
 .container {
     position: relative;
     left: 33%;
 }
 
 #outerBox{
-background-color: black;
-    border-radius: 50%;
+    background-image: url("../img/harambe.jpg");
+    border-radius: 30%;
     width: 50em;
     height: 50em;
     position: relative;
     top: 5em;
-    right: 20%;
+    right:;
 
-    background-image: -webkit-radial-gradient( circle cover, #373737, black);
+    /*background-image: -webkit-radial-gradient( circle cover, #373737, black);*/
 }
 
 .circle {
     border-radius: 50%;
 }
 
+#headerMain {
+    position: relative;
+    top: 17em;
+    left: 1.3em;
+    color: #ff892b;
+    z-index: 1;
+}
 
 #redTile {
     width: 17em;
@@ -62,4 +72,13 @@ background-color: black;
 
     background-image: -webkit-radial-gradient(circle cover, yellow, orange);
 
+}
+.shadedTile {
+    background-color: #3c3c3c;
+    opacity: .7;
+}
+#startBtn {
+    position: relative;
+    bottom: 43em;
+    left: 21.5em;
 }

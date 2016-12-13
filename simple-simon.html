@@ -5,18 +5,18 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/simple-simon.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 
 </head>
 <body>
 <div class="container">
-    <div class="row">
-    <div id="outerBox">
-            <div id="redTile" class="circle"></div>
-            <div id="greenTile" class="circle"></div>
-            <div id="blueTile" class="circle"></div>
-            <div id="yellowTile" class="circle"></div>
-    </div>
+    <p id="headerMain">Harambe Says</p>
+    <div id="outerBox" class="row">
+        <div id="redTile" class="circle shadedTile" onClick="addToPlayerArray(this.id)"></div>
+        <div id="greenTile" class="circle shadedTile" onClick="addToPlayerArray(this.id)"></div>
+        <div id="blueTile" class="circle shadedTile" onClick="addToPlayerArray(this.id)"></div>
+        <div id="yellowTile" class="circle shadedTile" onClick="addToPlayerArray(this.id)"></div>
+        <button id="startBtn" type="button" class="btn btn-danger" onclick="newGame()">Start/Reset</button>
     </div>
 </div>
 <script src="js/jquery-3.1.1.js"></script>
